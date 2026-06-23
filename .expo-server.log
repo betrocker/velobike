@@ -1,0 +1,9 @@
+Starting project at D:\MOBILNE-APLIKACIJE\velobike
+Using src/app as the root directory for Expo Router.
+NativeWind made the following changes to your project to support TypeScript:
+  - Updated ./tsconfig.json to include the nativewind-env.d.ts file
+React Compiler enabled
+Starting Metro Bundler
+
+Waiting on http://localhost:8081
+Logs for your project will appear below.
