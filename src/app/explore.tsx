@@ -1,36 +1,58 @@
+import { useTranslation } from 'react-i18next';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const actions = [
-  { title: 'Start a ride', description: 'Scan a dock code and unlock a bike.' },
-  { title: 'Report repair', description: 'Flag brakes, tires, lights, or docking issues.' },
-  { title: 'Balance top up', description: 'Prepare prepaid credit for the next customer.' },
-];
+const actionKeys = ['startRide', 'reportRepair', 'topUp'] as const;
+
+function ActionDot({ index }: { index: number }) {
+  if (index === 0) {
+    return <View className="mb-4 h-8 w-8 rounded-ds-pill bg-ds-accent" />;
+  }
+
+  if (index === 1) {
+    return <View className="mb-4 h-8 w-8 rounded-ds-pill bg-ds-upcoming" />;
+  }
+
+  return <View className="mb-4 h-8 w-8 rounded-ds-pill bg-ds-today" />;
+}
 
 export default function ExploreScreen() {
+  const { t } = useTranslation();
+
   return (
-    <SafeAreaView className="flex-1 bg-velo-road">
+    <SafeAreaView className="flex-1 bg-ds-bg">
       <ScrollView className="flex-1" contentContainerStyle={{ paddingBottom: 120 }}>
-        <View className="px-6 pt-5">
-          <Text className="text-sm font-semibold uppercase tracking-normal text-slate-500">
-            Operations
+        <View className="px-ds-screen pt-5">
+          <Text className="font-inter-semibold text-vb-xs uppercase text-ds-subtle">
+            {t('explore.eyebrow')}
           </Text>
-          <Text className="mt-2 text-3xl font-black text-velo-ink">Quick actions</Text>
+          <Text className="font-inter-black mt-2 text-vb-xl text-ds-text">{t('explore.title')}</Text>
 
           <View className="mt-6 gap-3">
-            {actions.map((action) => (
-              <Pressable key={action.title} className="rounded-3xl bg-white p-5">
-                <Text className="text-lg font-black text-velo-ink">{action.title}</Text>
-                <Text className="mt-2 text-base leading-6 text-slate-500">{action.description}</Text>
+            {actionKeys.map((actionKey, index) => (
+              <Pressable
+                key={actionKey}
+                className="rounded-ds-panel border border-ds-border bg-ds-surface p-ds-card active:bg-ds-elevated">
+                <ActionDot index={index} />
+                <Text className="font-inter-black text-vb-lg text-ds-text">
+                  {t(`explore.actions.${actionKey}.title`)}
+                </Text>
+                <Text className="font-inter mt-2 text-vb-base text-ds-muted">
+                  {t(`explore.actions.${actionKey}.description`)}
+                </Text>
               </Pressable>
             ))}
           </View>
 
-          <View className="mt-7 rounded-3xl bg-velo-ink p-5">
-            <Text className="text-sm font-semibold text-velo-mint">Next check</Text>
-            <Text className="mt-2 text-2xl font-black text-white">Battery swap route</Text>
-            <Text className="mt-2 text-base leading-6 text-slate-300">
-              11 bikes are below the preferred charge threshold across three stations.
+          <View className="mt-7 rounded-ds-panel border border-ds-border bg-ds-elevated p-ds-card">
+            <Text className="font-inter-semibold text-vb-sm text-ds-anytime">
+              {t('explore.nextCheck')}
+            </Text>
+            <Text className="font-inter-black mt-2 text-vb-xl text-ds-text">
+              {t('explore.batteryRoute')}
+            </Text>
+            <Text className="font-inter mt-2 text-vb-base text-ds-muted">
+              {t('explore.batteryRouteDescription')}
             </Text>
           </View>
         </View>

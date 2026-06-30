@@ -1,0 +1,31 @@
+export const colors = {
+  bg: '#1C2129',
+  canvas: '#202630',
+  surface: '#252B35',
+  elevated: '#2B3340',
+  field: '#303846',
+  border: '#343D4B',
+  hairline: '#29313C',
+  text: '#F4F6FA',
+  muted: '#A8B0BE',
+  subtle: '#768191',
+  disabled: '#525C6B',
+  accent: '#72A8FF',
+  accentSoft: '#1D3B5F',
+  accentPressed: '#1F78E5',
+  today: '#FFD23F',
+  upcoming: '#FF4F7A',
+  anytime: '#56D6C2',
+  logbook: '#36C978',
+  someday: '#CFC6A4',
+  danger: '#FF5A66',
+} as const;
+
+export const fonts = {
+  regular: 'Inter_400Regular',
+  medium: 'Inter_500Medium',
+  semibold: 'Inter_600SemiBold',
+  bold: 'Inter_700Bold',
+  black: 'Inter_900Black',
+  mono: 'monospace',
+} as const;

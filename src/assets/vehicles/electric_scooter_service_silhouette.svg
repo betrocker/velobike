@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="1600"
+  height="900"
+  viewBox="0 0 1600 900"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc">
+
+  <title id="title">Electric scooter service silhouette with tappable component groups</title>
+  <desc id="desc">
+    Minimal black electric scooter side silhouette divided into service-app component groups:
+    front wheel, rear wheel, deck/battery, rear motor, brakes, fork, stem, handlebar, lights,
+    fenders, kickstand and controller area.
+  </desc>
+<!-- REAR WHEEL / TIRE / RIM -->
+  <g id="rear_wheel" class="tap-zone" data-part="rear_wheel">
+    <circle fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" cx="370" cy="650" r="135"/>
+    <circle fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="370" cy="650" r="92"/>
+    <circle fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="370" cy="650" r="22"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M370 558V742"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M278 650H462"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M306 586L434 714"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M434 586L306 714"/>
+  </g>
+
+  <!-- FRONT WHEEL / TIRE / RIM -->
+  <g id="front_wheel" class="tap-zone" data-part="front_wheel">
+    <circle fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" cx="1230" cy="650" r="135"/>
+    <circle fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="1230" cy="650" r="92"/>
+    <circle fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="1230" cy="650" r="22"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1230 558V742"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1138 650H1322"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1166 586L1294 714"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1294 586L1166 714"/>
+  </g>
+
+  <!-- REAR MOTOR HUB -->
+  <g id="rear_motor_hub" class="tap-zone" data-part="rear_motor_hub">
+    <circle fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" cx="370" cy="650" r="48"/>
+    <circle fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="370" cy="650" r="20"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M342 650H398"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M370 622V678"/>
+  </g>
+
+  <!-- FRONT BRAKE ASSEMBLY -->
+  <g id="front_brake" class="tap-zone" data-part="front_brake">
+    <circle fill="none" stroke="#F4F6FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="1230" cy="650" r="63"/>
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="M1146 624C1122 632 1114 654 1120 674C1126 693 1145 701 1163 694L1180 687L1163 617L1146 624Z"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1192 603C1215 596 1242 597 1264 607"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1186 697C1212 708 1244 706 1268 693"/>
+  </g>
+
+  <!-- REAR BRAKE ASSEMBLY -->
+  <g id="rear_brake" class="tap-zone" data-part="rear_brake">
+    <circle fill="none" stroke="#F4F6FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="370" cy="650" r="64"/>
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="M456 623C478 632 486 655 479 675C472 694 452 701 434 693L418 686L436 615L456 623Z"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M338 599C363 592 395 595 418 607"/>
+  </g>
+
+  <!-- MAIN DECK / BATTERY CASE -->
+  <g id="deck_battery" class="tap-zone" data-part="deck_battery">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="
+      M438 568
+      C485 548 535 539 588 539
+      H985
+      C1034 539 1080 551 1120 574
+      L1148 592
+      C1162 601 1165 622 1154 635
+      L1124 671
+      C1114 683 1099 690 1083 690
+      H519
+      C497 690 476 682 460 668
+      L420 632
+      C401 615 407 582 438 568Z"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M517 584H1056"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M542 637H1018"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M740 555V674"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M929 555V674"/>
+  </g>
+
+  <!-- CONTROLLER / SERVICE PANEL -->
+  <g id="controller_panel" class="tap-zone" data-part="controller_panel">
+    <rect fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" x="815" y="582" width="136" height="74" rx="18"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M842 608H924"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M842 632H892"/>
+  </g>
+
+  <!-- REAR FENDER -->
+  <g id="rear_fender" class="tap-zone" data-part="rear_fender">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="
+      M235 530
+      C270 478 326 446 392 446
+      C447 446 498 469 533 507
+      C541 516 541 530 532 538
+      L494 573
+      C485 581 471 579 463 570
+      C441 545 409 531 374 531
+      C337 531 304 548 283 575
+      C275 586 258 585 250 574
+      L235 553
+      C230 546 230 537 235 530Z"/>
+  </g>
+
+  <!-- FRONT FENDER -->
+  <g id="front_fender" class="tap-zone" data-part="front_fender">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="
+      M1094 535
+      C1129 481 1188 446 1255 448
+      C1307 449 1354 471 1389 505
+      C1399 515 1399 531 1389 541
+      L1351 577
+      C1341 586 1326 584 1317 573
+      C1295 547 1263 532 1228 532
+      C1193 532 1162 547 1140 571
+      C1131 581 1116 583 1107 573
+      L1096 561
+      C1089 553 1088 543 1094 535Z"/>
+  </g>
+
+  <!-- REAR SWINGARM / SUPPORT -->
+  <g id="rear_support_arm" class="tap-zone" data-part="rear_support_arm">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="M382 624L508 575H622L452 670H380C360 670 352 644 382 624Z"/>
+    <circle fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="505" cy="620" r="18"/>
+  </g>
+
+  <!-- FRONT FORK -->
+  <g id="front_fork" class="tap-zone" data-part="front_fork">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="M1115 324L1164 321L1238 645L1188 657L1115 324Z"/>
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="M1168 325L1212 322L1268 642L1225 650L1168 325Z"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1145 444H1207"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1168 539H1238"/>
+  </g>
+
+  <!-- STEM / STEERING COLUMN -->
+  <g id="stem" class="tap-zone" data-part="stem">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="
+      M1068 198
+      C1066 181 1078 166 1095 164
+      L1128 160
+      C1145 158 1160 170 1162 187
+      L1181 327
+      C1183 344 1171 359 1154 361
+      L1121 365
+      C1104 367 1089 355 1087 338
+      L1068 198Z"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1082 238L1166 227"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1093 310L1176 299"/>
+  </g>
+
+  <!-- HANDLEBAR / CONTROLS -->
+  <g id="handlebar_controls" class="tap-zone" data-part="handlebar_controls">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="
+      M999 135
+      C1002 119 1017 108 1033 111
+      L1114 126
+      C1136 130 1154 144 1163 164
+      L1177 196
+      L1136 214
+      L1124 186
+      C1121 179 1115 175 1108 174
+      L1025 159
+      C1008 156 997 151 999 135Z"/>
+    <rect fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" x="943" y="109" width="98" height="48" rx="24"/>
+    <rect fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" x="1160" y="180" width="78" height="42" rx="16"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1125 172C1156 164 1185 170 1212 190"/>
+    <path fill="none" stroke="#F4F6FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1214 205C1248 225 1268 255 1274 294"/>
+  </g>
+
+  <!-- HEADLIGHT / FRONT LIGHT -->
+  <g id="front_light" class="tap-zone" data-part="front_light">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="
+      M1160 246
+      L1252 221
+      C1271 216 1290 227 1295 247
+      L1300 268
+      C1305 289 1291 309 1270 311
+      L1178 320
+      Z"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1206 254L1268 240"/>
+  </g>
+
+  <!-- REAR LIGHT -->
+  <g id="rear_light" class="tap-zone" data-part="rear_light">
+    <path fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" d="M190 555L236 540L247 574L203 594C186 602 174 563 190 555Z"/>
+  </g>
+
+  <!-- KICKSTAND -->
+  <g id="kickstand" class="tap-zone" data-part="kickstand">
+    <path fill="none" stroke="#F4F6FA" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M760 686L700 790"/>
+    <path fill="none" stroke="#F4F6FA" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M672 790H740"/>
+  </g>
+
+  <!-- CHARGE PORT / SMALL SERVICE DETAILS -->
+  <g id="charging_port" class="tap-zone" data-part="charging_port">
+    <circle fill="#F4F6FA" stroke="#252B35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" cx="1014" cy="625" r="25"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1003 625H1025"/>
+    <path fill="none" stroke="#252B35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1014 614V636"/>
+  </g>
+
+  <!-- CABLE ROUTING -->
+  <g id="cables" class="tap-zone" data-part="cables">
+    <path fill="none" stroke="#F4F6FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1112 188C1072 245 1070 310 1104 383"/>
+    <path fill="none" stroke="#F4F6FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M1174 203C1212 273 1230 347 1224 426"/>
+  </g>
+
+</svg>
